@@ -1,6 +1,7 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -57,5 +58,23 @@ public class Arrays {
         {
             System.out.println(var);
         }
+    }
+
+    protected void linked_lists()
+    {
+        LinkedList<String> names = new LinkedList<String>();
+
+        names.push("Jack");
+        names.push("Jill");
+        names.push("John");
+
+        for(String name : names)
+        {
+            System.out.println(name);
+        }
+
+        System.out.println(names.pop());
+        System.out.println(names.pop());
+        System.out.println(names.pop());
     }
 }

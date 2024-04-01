@@ -5,6 +5,7 @@ public class Main {
 
         Arrays arrayObject = new Arrays();
         //arrayObject.input_arr();
-        arrayObject.read_from_file();
+        //arrayObject.read_from_file();
+        arrayObject.linked_lists();
     }
 }
