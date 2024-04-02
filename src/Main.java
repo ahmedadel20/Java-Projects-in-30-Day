@@ -43,7 +43,9 @@ public class Main {
 
         while(true){
 
+            assert m.path.peek() != null;
             int x = m.path.peek().getX();
+            assert m.path.peek() != null;
             int y = m.path.peek().getY();
             //System.out.println(x);
             //System.out.println(y);
